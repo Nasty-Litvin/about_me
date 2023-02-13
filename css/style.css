@@ -1,0 +1,1032 @@
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+}
+.container {
+    width: 100%;
+}
+.container.active {
+    width: 100%;
+}
+.menu_container {
+    position: relative;
+    width: 98px;
+    height: 100%;
+    padding-top: 40px;
+    box-shadow: 0px 0px 20px rgba(47, 90, 83, 0.18);
+}
+.menu_container.active {
+    width: 365px;
+}
+.main_menu_nav {
+    position: fixed;
+    height: 90%;
+}
+.menu_body {
+    display: none;
+}
+.menu_logo {
+    width: 69px;
+    height: 50px;
+}
+.menu_logo_open {
+    margin-bottom: 30px;
+}
+.menu_logo {
+    margin-bottom: 30px;
+}
+.main_menu_list {
+    height: 90%;
+}
+.main_menu_list_item {
+    padding: 10px 45px 10px 30px;
+    height: 44px;
+}
+.main_menu_list_item:nth-child(1) {
+    padding: 10px 9px 30px 20px;
+}
+.for_logo {
+    height: 120px;
+}
+.main_menu_list_item:nth-child(1):hover {
+    background: #FFFFFF;
+}
+.main_menu_list_item:hover {
+    background: #e7e9eb;
+}
+.menu_arrow {
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menu_arrow.active {
+    transform: rotate(180deg);
+}
+.list_item_wrapper {
+    display: block;
+} 
+.list_item_wrapper_img.logo:hover {
+    background: none;
+}
+.list_item_wrapper_img.active {
+    display: none;
+}
+
+.list_item_wrapper_open {
+    display: none;
+}
+.list_item_wrapper_open.active {
+    display: flex;
+}
+svg {
+    width: 24px;
+    height: 24px;
+    stroke: #052140;
+}
+.active_img {
+    stroke: #0176FF;
+}
+svg:hover {
+    stroke: #0176FF;
+}
+.open_svg_text {
+    display: flex;
+}
+.active_block {
+    padding: 10px 0px 10px 30px;
+    height: 44px;
+    background: #e7e9eb;
+    stroke: #0176FF;
+}
+.list_item_wrapper_open:hover.active {
+    background: #e7e9eb;
+    border-radius: 0;
+    stroke: #0176FF;
+}
+.logo:hover.active {
+    background: none;
+}
+.logo_hover:hover.active {
+    background: none;
+}
+.menu_arrow_wrapper_open {
+    display: flex;
+    margin-left: 10px;
+}
+.list_item_wrapper_open_span {
+    display: none;
+}
+.list_item_wrapper_open_span.active {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #052140;
+    display: flex;
+    align-items: center;
+    margin: 0 11px 0 15px;
+}
+.about_me_header {
+    padding: 71px 85px 0 100px;
+}
+.about_me_title_page {
+    display: flex;
+    justify-content: space-between;
+}
+.about_me_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #052140;
+}
+.about_me_title_data {
+    display: flex;
+}
+.logo_for_mobile {
+    display: none;
+}
+.title_data_about_me_foto {
+    display: flex;
+}
+.title_data_about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.data_about_me_name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #052140;
+}
+.data_about_me_email {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #052140;
+}
+.title_data_foto img{
+    width: 49px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.title_data_foto_for_mobile {
+    display: none;
+}
+main {
+    padding: 0 85px 0 100px;
+}
+.form_wrapper {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.my_account_information_form {
+    display: flex;
+}
+.my_account_information_form_item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #052140;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.my_account_information_form_item:hover {
+    color: #0176FF;
+    text-decoration: underline;
+}
+.button_one {
+    color: #0176FF;
+}
+.delete_account {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 197px;
+    height: 40px;
+    border: 2px solid #0176FF;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 53px;
+}
+.delete_account_img {
+    width: 24px;
+    height: 24px;
+}
+.delete_account_item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #0176FF;
+}
+.your_link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #052140;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    text-decoration-line: underline;
+    color: #0000FF;
+    display: block;
+    margin-top: 15px;
+}
+.qr_code {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #052140;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+.qr_code_img {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+.block_one {
+    display: flex;
+    flex-direction: column;
+}
+.block_two {
+    display: flex;
+    flex-direction: column;
+}
+.block_three {
+    display: flex;
+    flex-direction: column;
+    
+}
+.block_inputs_and_inform {
+    margin-top: 54px;
+}
+.block_inputs_and_inform_list {
+    margin-top: 20px;
+    position: relative;
+}
+.block_inputs_and_inform_description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #052140;
+    margin-bottom: 10px;
+}
+.block_inputs_and_inform_item {
+    width: 550px;
+    height: 60px;
+    left: 465px;
+    top: 320px;
+    background: #F3F5F5;
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #052140;
+}
+.note_img {
+    position: absolute;
+    top: 58px;
+    left: 510px;
+}
+.checkbox_input {
+    margin: 53px 0;
+    display: flex;
+    align-items: center;
+}
+.checkbox_currency {
+    width: 30px;
+    height: 30px;
+}
+.checkbox_currency_label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #052140;
+    margin-left: 20px;
+}
+.upload_foto_save_changes {
+    display: flex;
+    margin: 50px 0 100px 0;
+    width: 550px;
+    justify-content: flex-end;
+}
+.upload_foto {
+    cursor: pointer;
+    width: 187px;
+    height: 40px;
+    border: 2px solid #0176FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    margin-right: 50px;
+}
+.save_changes {
+    cursor: pointer;
+    width: 240px;
+    height: 40px;
+    border: 2px solid #0176FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+.save_changes_for_mobile {
+    display: none;
+}
+.upload_foto_img, .save_changes_img {
+    height: 24px;
+    width: 24px;
+}
+.upload_foto_text, .save_changes_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #0176FF;
+}
+.popup_delete_your_account {
+    display: none;
+}
+.popup_body_delete_your_account_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.popup_upload_foto {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+}
+.popup_body_delete_your_account {
+    background: #FFFFFF;
+    padding: 50px 50px 60px 50px;
+}
+.delete_your_account_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #052140;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.delete_your_account_buttons {
+    display: flex;
+}
+.delete_your_account_cancel {
+    width: 156px;
+    height: 59px;
+    border: 2px solid #0176FF;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #0176FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.delete_your_account_delete {
+    width: 161px;
+    height: 59px;
+    background: #0176FF;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.popup_body_upload_foto {
+    background: #FFFFFF;
+    padding: 50px 90px 60px 90px;
+}
+.upload_new_foto {
+    cursor: pointer;
+    width: 187px;
+    height: 40px;
+    border: 2px solid #0176FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+.popup_body_upload_foto_img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.drag_file {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #052140;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.open {
+    display: block !important;
+}
+@media (max-width: 1600px) {
+    .about_me_header{
+        padding: 71px 70px 0 70px;
+    }
+    main {
+        padding: 0 70px 0 70px;
+    }
+}
+@media (max-width: 1300px) {
+    .about_me_header{
+        padding: 71px 50px 0 50px;
+    }
+    .title_data_about_me {
+        margin-top: 12px;
+    }
+    .data_about_me_name {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 135%;
+    }
+    .about_me_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 58px;
+    }
+    main {
+        padding: 0 50px 0 50px;
+    }
+}
+@media (max-width: 1200px) {
+    .about_me_header{
+        padding: 71px 30px 0 30px;
+    }
+    main {
+        padding: 0 30px 0 30px;
+    }
+    .my_account_information_form {
+        flex-direction: column;
+    }
+    .my_account_information_form_item {
+        margin-top: 15px;
+    }
+    .block_inputs_and_inform_item {
+        width: 450px;
+    }
+    .note_img {
+        left: 410px;
+    }
+    .upload_foto_save_changes {
+        width: 450px;
+    }
+    .upload_foto_save_changes {
+        flex-direction: column;
+    }
+    .save_changes {
+        margin-top: 50px;
+    }
+    .block_two {
+        margin-bottom: 0;
+    }
+    .block_three {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 992px) {
+    .about_me_header{
+        padding: 71px 20px 0 20px;
+    }
+    .about_me_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .title_data_foto img {
+        margin-left: 8px;
+    }
+    main {
+        padding: 0 20px 0 20px;
+    }
+    .form_wrapper {
+        flex-direction: column;
+    }
+    .delete_account {
+        margin-top: 50px;
+    }
+    .block_two {
+        margin-bottom: 0;
+    }
+    .block_three {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 575px) {
+    .menu_icon {
+        z-index: 5;
+        display: block;
+        position: relative;
+        margin: 20px 0 0 8px;
+        width: 35px;
+        height: 22px;
+        cursor: pointer;
+    }
+    .menu_icon span,
+    .menu_icon::before,
+    .menu_icon::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        background-color: black;
+    }
+    .menu_icon::before,
+    .menu_icon::after {
+        content: "";
+    }
+    .menu_icon::before {
+        top: 0;
+    }
+    .menu_icon::after {
+        bottom: 0;
+    }
+    .menu_icon span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+    .menu_icon.active span {
+        transform: scale(0) translate(0px, -50%);
+    }
+    .menu_icon.active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+    .menu_icon.active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+    .menu_body {
+        position: absolute;
+        top: 0;
+        left: 8px;
+        display: flex;
+        padding: 20px 0;
+        width: 360px;
+        transform: translate(-100%, 0px);
+        background: white;
+    }
+    .menu_body.active {
+        transform: translate(0px, 0px);
+    }
+    .menu_link {
+        padding: 10px;
+    }
+    li:first-child {
+        margin: 13px 0 87px 60px;
+        margin-left: 60px;
+    }
+    li:last-child {
+        margin-top: 50px;
+    }
+    li {
+        padding: 0 20px;
+        display: flex;
+        stroke: #052140;
+    }
+    .menu_link_item {
+        display: flex;
+    }
+    .menu_link_item img {
+        width: 24px;
+        height: 24px;
+    }
+    li:hover {
+        background: #e7e9eb;
+        border-radius: 0;
+        width: 360px;
+        stroke: #0176FF;
+    }
+    .menu_link_span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #052140;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .logo_for_mobile {
+        margin: 100px 50px;
+    }
+    .wrapper {
+        margin: 0 auto;
+        padding: 0px;
+    }
+    main.active {
+        display: none;
+    }
+    .container {
+        width: 360px;
+        padding: 5px 6px 10px 9px;
+    }
+    .main_menu_nav.open {
+        height: 150px;
+        width: 150px;
+        background: #0176FF;
+    }
+    .menu_container {
+        display: none;
+    }
+    .about_me_header {
+        padding: 0;
+    }
+    .about_me_title_page {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about_me_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #052140;
+        margin-top: 63px;
+    }
+    .about_me_title_data {
+        display: flex;
+        justify-content: space-between;
+    }
+    .title_data_about_me {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 12px;
+    } 
+    .title_data_about_me_foto {
+        display: none;
+    }
+    .title_data_foto_for_mobile {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        max-width: 344px;
+    }
+    .foto_img {
+        width: 150px;
+        border-radius: 50%;
+    }
+    .title_data_foto_for_mobile_add_foto {
+        position: absolute;
+        top: 295px;
+        left: 214px;
+        width: 48px;
+        height: 48px;
+    }
+    .title_data_foto_for_mobile_add_foto.active {
+        display: none;
+    }
+    main {
+        padding: 0;
+    }
+    .form_wrapper {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .my_account_information_form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 344px;
+    }
+    .my_account_information_form_item {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        text-align: center;
+        margin-right: 0px;
+        max-width: 105px;
+        cursor: pointer;
+    }
+    .my_account_information_form_item:hover {
+        color: #0176FF;
+        text-decoration: underline;
+    }
+    .delete_account_plus_link {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .delete_account {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 197px;
+        height: 40px;
+        border: 2px solid #0176FF;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 50px 0 0 147px;
+    }
+    .your_link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #052140;
+        width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        text-decoration-line: underline;
+        color: #0000FF;
+        display: block;
+        margin-top: 0px;
+    }
+    .qr_code {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #052140;
+        width: 344px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .qr_code_img {
+        width: 100px;
+        height: 100px;
+        margin: 20px 0 50px 0;
+    }
+    .block_two {
+        margin-bottom: 0px;
+    }
+    .block_three {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .block_inputs_and_inform {
+        margin-top: 30px;
+    }
+    .block_inputs_and_inform_list {
+        margin-top: 20px;
+        position: relative;
+    }
+    .block_inputs_and_inform_description {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #052140;
+        margin-bottom: 5px;
+    }
+    .block_inputs_and_inform_item {
+        width: 344px;
+        height: 42px;
+        background: #F3F5F5;
+        border-radius: 10px;
+        padding: 18px 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #052140;
+    }
+    .note_img {
+        position: absolute;
+        top: 40px;
+        left: 310px;
+    }
+    .checkbox_input {
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+    }
+    .checkbox_currency {
+        width: 30px;
+        height: 30px;
+    }
+    .checkbox_currency_label {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #052140;
+        margin-left: 20px;
+    }
+    .upload_foto_save_changes {
+        display: flex;
+        margin-top: 50px;
+        max-width: 344px;
+    }
+    .upload_foto {
+        display: none;
+    }
+    .save_changes {
+        display: none;
+    }
+    .save_changes_for_mobile {
+        cursor: pointer;
+        width: 240px;
+        height: 40px;
+        border: 2px solid #0176FF;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 16px;
+        margin: 0px 0 0 104px;
+    }
+    .popup_delete_your_account {
+        display: none;
+    }
+    .popup_body_delete_your_account_wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .popup_body_upload_foto_wrapper {
+        overflow: auto;
+        background-color: rgba(0,0,0,0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .popup_body_delete_your_account {
+        width: 300px;
+        background: #FFFFFF;
+        padding: 50px 20px;
+    }
+    .delete_your_account_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #052140;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .delete_your_account_buttons {
+        display: flex;
+    }
+    .delete_your_account_cancel {
+        width: 96px;
+        height: 46px;
+        border: 2px solid #0176FF;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #0176FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+    .delete_your_account_delete {
+        width: 113px;
+        height: 46px;
+        background: #0176FF;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .popup_body_upload_foto {
+
+        background: #FFFFFF;
+        padding: 50px;
+    }
+    .upload_new_foto {
+        cursor: pointer;
+        width: 187px;
+        height: 40px;
+        border: 2px solid #0176FF;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 16px;
+    }
+    .popup_upload_foto {
+        top: 30%;
+        left: 10%;
+    }
+    .popup_body_upload_foto_img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .drag_file {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #052140;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+}
